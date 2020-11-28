@@ -13,23 +13,26 @@ import com.SpringSecuritySQL2.demo.model.User;
 @RestController
 @RequestMapping("/admin")
 public class AdminController {
-	
+
 	@Autowired
 	private BCryptPasswordEncoder passwordEncoder;
-	
+
 	@Autowired
 	private UserService userService;
+
 	
-	@RequestMapping(value="/adduser", method = RequestMethod.POST)
-	public String getUsers(@RequestBody User user) {
-		
+	@RequestMapping(value="/adduser", method=RequestMethod.POST)
+	public String save(@RequestBody User user) {
 		String password = user.getUser_password();
-		String encrypedPassword = passwordEncoder.encode(password);
-		user.setUser_password(password);
+		String encryptedPassword = passwordEncoder.encode(password);
+		user.setUser_password(encryptedPassword);
 		userService.save(user);
-		return "The is added succefully ...";
+		return "The user is saved succefully";
 	}
-	
-	
+
+	@RequestMapping("/hello")
+	public String sayHi() {
+		return "Hello there suckurs ...";
+	}
 
 }

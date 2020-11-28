@@ -18,6 +18,6 @@ public class Role {
 	@GeneratedValue
 	private int role_id;
 	
-	private String user_role;
+	private String role;
 
 }
