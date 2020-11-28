@@ -30,9 +30,6 @@ public class AdminController {
 		return "The user is saved succefully";
 	}
 
-	@RequestMapping("/hello")
-	public String sayHi() {
-		return "Hello there suckurs ...";
-	}
+	
 
 }
