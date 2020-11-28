@@ -329,3 +329,80 @@ java.util.concurrent.TimeoutException
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-28 12:44:38.219
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.qXCDfkyQ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-28 12:44:38.267
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.qXCDfkyQ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-28 12:44:38.275
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-28 12:44:38.282
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.qXCDfkyQ => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-28 12:46:01.753
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.fuCLuRFn
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-28 12:46:01.769
+!MESSAGE subscribing to classpath changes: sts4.classpath.fuCLuRFn
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-28 12:46:01.782
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-28 12:46:01.793
+!MESSAGE subsribers = [sts4.classpath.fuCLuRFn]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-28 12:46:01.800
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-28 12:46:01.808
+!MESSAGE project SpringSecuritySQL.2 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-28 12:46:01.815
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-28 12:46:01.824
+!MESSAGE Preparing classpath changed notification SpringSecuritySQL.2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-28 12:46:01.831
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.fuCLuRFn => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-28 12:46:01.839
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-28 12:46:02.002
+!MESSAGE classpath=114 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-28 12:46:02.027
+!MESSAGE executing callback sts4.classpath.fuCLuRFn SpringSecuritySQL.2 false 114
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-28 12:46:02.236
+!MESSAGE executing callback sts4.classpath.fuCLuRFn SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 4 0 2020-11-28 12:56:18.738
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2093)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.getHoverInfo(LSBasedHover.java:108)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:43)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.lsp4e 4 0 2020-11-28 12:56:45.901
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2093)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.getHoverInfo(LSBasedHover.java:108)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:43)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
