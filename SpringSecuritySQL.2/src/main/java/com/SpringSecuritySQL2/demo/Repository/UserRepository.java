@@ -6,6 +6,8 @@ import com.SpringSecuritySQL2.demo.model.User;
 
 public interface UserRepository extends JpaRepository<User, Integer> {
 
+	User findByUsername(String user_name);
+
 
 
 }
