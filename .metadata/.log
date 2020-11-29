@@ -1393,3 +1393,54 @@ org.eclipse.jface.text.BadLocationException
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-29 14:47:33.063
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.xQtRctsr
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-29 14:47:33.077
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.xQtRctsr
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-29 14:47:33.091
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-29 14:47:33.102
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.xQtRctsr => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-29 14:47:49.673
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.BPoeJABx
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-29 14:47:49.685
+!MESSAGE subscribing to classpath changes: sts4.classpath.BPoeJABx
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-29 14:47:49.696
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-29 14:47:49.707
+!MESSAGE subsribers = [sts4.classpath.BPoeJABx]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-29 14:47:49.717
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-29 14:47:49.727
+!MESSAGE project SpringSecuritySQL.2 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-29 14:47:49.738
+!MESSAGE Preparing classpath changed notification SpringSecuritySQL.2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-29 14:47:49.748
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-29 14:47:49.758
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-29 14:47:49.768
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.BPoeJABx => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-29 14:47:49.780
+!MESSAGE classpath=114 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-29 14:47:49.790
+!MESSAGE executing callback sts4.classpath.BPoeJABx SpringSecuritySQL.2 false 114
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-11-29 14:47:50.024
+!MESSAGE executing callback sts4.classpath.BPoeJABx SUCCESS [done]
