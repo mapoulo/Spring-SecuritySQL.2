@@ -9,6 +9,11 @@ import org.springframework.security.core.userdetails.UserDetails;
 
 import com.SpringSecuritySQL2.demo.model.User;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class CustomUserDetails implements UserDetails {
 	
 	private User user;
