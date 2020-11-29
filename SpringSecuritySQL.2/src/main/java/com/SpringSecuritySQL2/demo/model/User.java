@@ -24,8 +24,8 @@ public class User {
 	private int user_id;
 	
 	
-	private String user_name;
-	private String user_password;
+	private String username;
+	private String userpassword;
 	
 	
 	@OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)

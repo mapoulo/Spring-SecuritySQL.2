@@ -23,9 +23,9 @@ public class AdminController {
 
 	@RequestMapping(value="/adduser", method=RequestMethod.POST)
 	public String save(@RequestBody User user) {
-		String password = user.getUser_password();
+		String password = user.getUserpassword();
 		String encryptedPassword = passwordEncoder.encode(password);
-		user.setUser_password(encryptedPassword);
+		user.setUserpassword(encryptedPassword);
 		userService.save(user);
 		return "The user is saved succefully";
 	}
