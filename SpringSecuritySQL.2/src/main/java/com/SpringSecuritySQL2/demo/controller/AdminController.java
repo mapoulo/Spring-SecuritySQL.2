@@ -21,6 +21,7 @@ public class AdminController {
 	@Autowired
 	private UserService userService;
 
+	@PreAuthorize("hasAnyRole('ADMIN')")
 	@RequestMapping(value="/adduser", method=RequestMethod.POST)
 	public String save(@RequestBody User user) {
 		String password = user.getUserpassword();
